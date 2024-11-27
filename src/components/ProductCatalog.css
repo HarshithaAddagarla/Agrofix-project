@@ -1,0 +1,42 @@
+/* ProductCatalog.css */
+
+/* Center the header name */
+h1_P {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #52c734;
+    margin-top: 1.5rem;
+    
+  }
+  
+  /* Background with fruits and vegetables image */
+  
+  
+  /* Style for product list */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem auto;
+    max-width: 600px;
+  }
+  
+  li {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for product items */
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  li:hover {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive adjustments for the product list */
+  @media (max-width: 768px) {
+    ul {
+      padding: 0 1rem;
+    }
+  }
+  

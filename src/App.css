@@ -1,0 +1,32 @@
+/* Navbar styling */
+nav {
+  background: linear-gradient(90deg, #4CAF50, #2196F3); /* Green to blue gradient */
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  position: fixed; /* Ensure navbar stays at the top */
+  top: 0; /* Align to the top */
+  width: 100%; /* Full-width navbar */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1rem;
+  white-space: nowrap; /* Prevent text from breaking into multiple lines */
+}
+
+/* Responsive adjustments for navbar */
+@media (max-width: 768px) {
+  nav {
+    justify-content: space-around; /* Spread options evenly */
+  }
+  nav a {
+    margin: 0 0.5rem; /* Slightly smaller margin for smaller screens */
+  }
+}
