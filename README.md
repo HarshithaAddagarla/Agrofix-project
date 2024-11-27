@@ -151,6 +151,55 @@ agrofix-backend/
 ├── server.js  
 └── package.json  
 ________________________________________
+
+
+Functionality
+1. Admin Dashboard
+
+View, add, update, and delete products.
+Manage users and assign roles.
+Access advanced analytics (future scope).
+2. User Dashboard
+
+Browse available products or services.
+View detailed product information.
+Interact with features like searching and filtering (future scope).
+3. Product Management
+
+Products can be dynamically created, updated, or removed by Admins.
+Product details include name, price, and description.
+4. Role-Based Access
+
+Admin: Full access to manage all resources (e.g., products and users).
+User: Restricted access to general functionalities only.
+5. Routing
+
+Seamless navigation between pages using React Router.
+Protected routes to ensure only authorized users access specific pages.
+6. MySQL Database Integration
+
+Persistent storage for products and user information.
+Secure and efficient data retrieval.
+7. API Integration
+
+Fetch product and user data from the backend.
+Perform CRUD operations for products via RESTful API.
+8. Responsive Design
+
+User-friendly interface optimized for both desktop and mobile devices.
+9. Error Handling
+
+Displays appropriate error messages for failed actions or API calls.
+Retry functionality for critical operations.
+10. Future Enhancements (Planned)
+
+User authentication and session management using JWT.
+Advanced search, filter, and recommendation systems.
+Dashboard analytics for admin users.
+
+_______________________________________
+
+
 Debugging Common Issues
 Frontend
 1.	"Sample Product - $10.00" Appears Everywhere:
